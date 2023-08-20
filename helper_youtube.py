@@ -14,7 +14,7 @@ dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
 async def cmd_answer(message: types.Message):
-      await message.answer('<b>👋 Hi, I'm RX YT DOWNLØADER</b> \n <b>📥 This bot can download videos from YouTube.</b> \n <b>🔗 Just submit a video link and download it.</b>', parse_mode='HTML')
+      await message.answer('<b>👋 Hi, Im RX YT DOWNLØADER</b> \n <b>📥 This bot can download videos from YouTube.</b> \n <b>🔗 Just submit a video link and download it.</b>', parse_mode='HTML')
       
 @dp.message_handler(commands=['help'])
 async def cmd_answer(message: types.Message):
